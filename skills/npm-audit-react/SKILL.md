@@ -9,7 +9,7 @@ Use this skill to triage and fix `npm audit` issues without blindly forcing brea
 
 ## Current Audit
 
-!`npm audit --json || true`
+!`npm audit || true`
 
 ## Workflow
 
