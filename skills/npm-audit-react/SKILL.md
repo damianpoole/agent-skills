@@ -13,7 +13,7 @@ Use this skill to triage and fix `npm audit` issues without blindly forcing brea
 
 ## Workflow
 
-1. Read the audit output above first; do not rerun unless it is missing, stale, or not JSON.
+1. Read the audit output above first; do not rerun unless it is missing or stale.
 2. Group findings by vulnerable package, severity, direct vs transitive dependency, and whether a fix is available.
 3. Prefer the smallest safe fix:
    - patch/minor direct dependency updates first
